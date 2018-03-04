@@ -146,6 +146,14 @@ a:hover, a:focus, a:active {
   color: #824027;
 }
 
+.btn-primary {
+  background-color: #495057;
+  border: none; 
+}
+
+.btn-primary:hover {
+  background-color: #4E937A;
+}
 
 
 
