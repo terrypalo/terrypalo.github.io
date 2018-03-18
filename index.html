@@ -115,10 +115,72 @@
       </section>
 
     <!-- Portfolio Grid Section -->
+
+
     <section class="portfolio resume-section p-3 p-lg-5 d-flex d-column" id="projects">
       <div class="">
-        <h2 class="mb-5">Projects</h2>
+        <h2 class="mb-5"> Favorite Projects</h2>
         <div class="row">
+
+      <div class="col-md-6 col-lg-4 text-center mb-5">
+              <img class="img-fluid" src="img/ethstates.png" alt="">
+              <button style="margin: 10px" type="button" class="btn btn-primary" data-toggle="modal" data-target="#ethstates">
+                Ethstates
+              </button>
+          </div>
+
+                <!-- Modal -->
+          <div class="modal fade" id="ethstates" tabindex="-1" role="dialog" aria-labelledby="ethstates" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Ethstates</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body text-left">
+                <img class="img-fluid" src="img/ethstates.png" alt="">
+                  <div class="row">
+                    <div class="col-4">
+                      <div style="padding-left: 10px" class="subheading mb-3">Techstack</div>
+                      <ul class="fa-ul text-left">
+                        <li>
+                          <i class="fa-li fa fa-check"></i>
+                          Ethereum</li>
+                        <li>
+                          <i class="fa-li fa fa-check"></i>
+                          React</li>
+                        <li>
+                          <i class="fa-li fa fa-check"></i>
+                          AWS DynamoDB</li>
+                        <li>
+                          <i class="fa-li fa fa-check"></i>
+                          AWS S3</li>
+                        <li>
+                          <i class="fa-li fa fa-check"></i>
+                          AWS API Gateway</li>
+                      </ul>
+                    </div>
+
+                    <div class="col-8">
+                      <div class="subheading mb-3">Description</div>
+                        <p> Web Application powered by Ethereum blockchain technology to introduce ERC 721 Non-fungible collectible state themed assets. Architectured with security and reliability in mind. Lead development of this project with 2 other developers and received hundreds of users upon initial release. 
+                        <br><br>
+                        Users can easily trade independently or through our application using smart contracts with blockchain technology.
+
+                        <br><br>
+                        Visit <a href="https://www.ethstates.com/"> Ethstates </a>
+                        </p>
+                    </div>
+                </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div class="col-md-6 col-lg-4 text-center mb-5">
               <img class="img-fluid" src="img/openhrs.png" alt="">
@@ -383,58 +445,6 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 text-center mb-5">
-              <img class="img-fluid" src="img/mdd.png" alt="">
-              <button style="margin: 10px" type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdd">
-                Manoa Dining Delivery
-              </button>
-          </div>
-
-                <!-- Modal -->
-          <div class="modal fade" id="mdd" tabindex="-1" role="dialog" aria-labelledby="mdd" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">Manoa Dining Delivery</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body text-left">
-                <img class="img-fluid" src="img/mdd.png" alt="">
-                  <div class="row">
-                    <div class="col-4">
-                      <div style="padding-left: 10px" class="subheading mb-3">Techstack</div>
-                      <ul class="fa-ul text-left">
-                        <li>
-                          <i class="fa-li fa fa-check"></i>
-                          Meteor</li>
-                        <li>
-                          <i class="fa-li fa fa-check"></i>
-                          Python</li>
-                        <li>
-                          <i class="fa-li fa fa-check"></i>
-                          BeautifulSoup</li>
-                      </ul>
-                    </div>
-
-                    <div class="col-8">
-                      <div class="subheading mb-3">Description</div>
-                        <p> Web application that was intended to be a prototype for a local campus based food delivery service that effectively allowed users to trade University Meal Points (for students that dormed) in exchange for cash.
-
-                          <br><br>
-                          Incorporated a system to web scrape the menu weekly to keep synchronization between the web application and actual menu.
-                        </p>
-                    </div>
-                </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
 
@@ -452,7 +462,7 @@
               <h3 class="mb-0">Software Developer</h3>
               <div class="subheading mb-3">Fast Enterprises, LLC</div>
               <p>
-                • Built a search function to effectively aggregate data with indexed types through millions of rows of data which allowed Utah law enforcement to quickly and accurately collect information.
+                • Built a search function to effectively aggregate data with indexed types through hundreds of thousands of rows of data which allowed Utah law enforcement to quickly and accurately collect information.
               </p>
             </div>
             <div class="resume-date text-md-right">
