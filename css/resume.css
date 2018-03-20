@@ -241,3 +241,8 @@ a:hover, a:focus, a:active {
 .portfolio-img {
   max-width: 75%;
 }
+
+nav#sideNav {
+    margin: 0px !important;
+    padding: 0px !important;
+}
